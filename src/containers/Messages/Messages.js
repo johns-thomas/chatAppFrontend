@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import  classes from "./Messages.css";
 import Message from './Message/Message'
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxi';
 import { connect } from 'react-redux';
 import Input from '../../components/UI/Input/Input';
 import Spinner from '../../components/UI/Spinner/Spinner'
