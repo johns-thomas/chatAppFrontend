@@ -1,0 +1,19 @@
+.Input{
+    width:100%;
+    padding :5px;
+    box-sizing:border-box;
+}
+.Label{
+    display:block;
+
+}
+.InputElement{
+    outline:none;
+    border: 1px solid white;
+    box-shadow:2px solid whitesmoke;
+    background-color:white;
+    padding:5px;
+    width:100%;
+    box-sizing :border-box;
+    border-radius :20px;
+}

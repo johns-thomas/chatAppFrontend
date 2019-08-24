@@ -1,0 +1,164 @@
+.container {
+    margin: auto;
+    position: absolute;
+    top: 56px; right: 0; bottom: 0; left: 0;
+    border: 1px solid rgb(41, 41, 41);
+	background-color: #fff;	
+	box-shadow: 0 0 25px darken(#61b2d0,10);
+	flex-direction: row;
+	display: flex;
+	
+
+}
+.contact{
+    width: 19%;
+    box-sizing: border-box;
+    padding-right: 1%;
+    height: 100%;
+    background: #434753;
+    padding:10px;
+}
+.PostContainer{
+    width: 81%;
+    box-sizing: border-box;
+    transition:transform 0.3s 'ease-out';
+    height: 100%;
+    background: #059e33;
+    display:flex;
+    flex-flow: column;
+}
+.Messages{
+    width: 100%;
+    box-sizing:border-box;
+    padding:20px 20px;
+    height: 100%;
+    background: #ebf1f5;
+    display:flex;
+    flex-flow: column;
+    overflow:auto;
+    
+    
+    
+}
+.TextContainer{
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    background-color: #ebf1f5;
+    padding: 20px;
+    background: rgba(250, 232, 232, 0.89);
+    z-index:100px;
+    display: flex;
+}  
+  
+
+
+.SendMessage{
+    display: flex;
+    background-color: rgb(247, 162, 51);
+    z-index:100px;
+    padding: 5px 10px;
+    position: fixed;
+    float:bottom;
+    bottom:20px;
+    box-sizing: border-box;
+    margin-right:0px;
+    max-width:100%
+}
+ .TextContainer button{
+    border: 1px solid white;
+    box-sizing:border-box;
+    border-radius:20px;
+    background-color:whitesmoke;
+    margin:auto;
+    align-content: center;
+    display:flex;
+    padding: 10px 10px;
+    
+}
+
+.Messages::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    
+}
+
+
+.Messages::-webkit-scrollbar
+{
+    width: 5px;
+    background:#F5F5F5;;
+}
+
+.Messages::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background:#434753;
+} 
+.box{
+  
+    box-sizing: border-box;
+    
+    box-shadow: #0c7ab9 20px solid;
+    padding:10px;
+    width:100%
+} 
+.namebar{
+    padding:20px;
+    height: 5%;
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(121, 121, 121);
+    z-index:100px;
+
+}  
+.formelement{
+    padding:10px;
+    color:rgb(92, 89, 84)
+}
+.fbutton{
+    background: #f8f8f8;
+    color: rgba(39, 38, 38, 0.932);
+    font-style: inherit
+}
+
+.chead{
+    color: #0a0a0a;
+    font-size: 20px;
+}
+
+
+
+    .Open{
+        width:100%;
+        display: flex;
+        transform:translate(0);
+    }
+   
+    .contactsmall{
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 1%;
+        height: 100%;
+        background: #434753;
+        padding:10px;
+        
+    }
+    .PostContainersmall{
+        width: 100%;
+        box-sizing: border-box;
+        transition:transform 0.3s 'ease-out';
+        height: 100%;
+        background: #059e33;
+        display:flex;
+        flex-flow: column;
+        
+    }
+.Close{
+    display: none
+}
