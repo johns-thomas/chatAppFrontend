@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Before running this app use git or checkout chatserver from
+https://github.com/johns-thomas/ChatAppServer.git
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
